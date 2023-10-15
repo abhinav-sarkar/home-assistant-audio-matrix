@@ -1,0 +1,14 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "description": "Audio Matrix Configuration",
+                "data": {
+                    "host": "Host",
+                    "port": "Port"
+                }
+            }
+        },
+        "error": {}
+    }
+}

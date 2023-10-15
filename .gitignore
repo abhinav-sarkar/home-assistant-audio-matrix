@@ -1,3 +1,20 @@
+# Home Assistant configuration
+.cloud
+.HA_VERSION
+.storage
+automations.yaml
+blueprints
+configuration.yaml
+deps
+home-assistant_v2*
+home-assistant.log*
+tts
+scenes.yaml
+scripts.yaml
+secrets.yaml
+!config/configuration.yaml
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
