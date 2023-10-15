@@ -1,18 +1,16 @@
 """Config flow for Audio Matrix."""
+import ipaddress
+import voluptuous as vol
+
 from homeassistant import config_entries
 from homeassistant.const import CONF_HOST, CONF_PORT
 from homeassistant.helpers import selector
-import ipaddress
-
-import voluptuous as vol
 
 from .const import DOMAIN, LOGGER
 
 
-class ExampleConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
-    async def async_step_user(
-        self, user_input: dict | None = None
-    ) -> config_entries.FlowResult:
+class AudioMatrixConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
+    async def async_step_user(self, user_input: dict | None = None):
         _errors = {}
         if user_input is not None:
             try:
