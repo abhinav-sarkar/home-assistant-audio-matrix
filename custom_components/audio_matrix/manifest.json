@@ -1,0 +1,12 @@
+{
+  "domain": "audio_matrix",
+  "name": "Audio Matrix",
+  "codeowners": [
+    "@abhinav-sarkar"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/abhinav-sarkar/home-assistant-audio-matrix",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/abhinav-sarkar/home-assistant-audio-matrix/issues",
+  "version": "0.0.0"
+}
